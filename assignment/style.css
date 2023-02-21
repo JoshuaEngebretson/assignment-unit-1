@@ -9,3 +9,46 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+html {
+    background-color: rgb(39, 140, 135);
+    padding: 0 5% 5% 5%;
+}
+
+header, footer {
+    background-color:saddlebrown;
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border: 5px solid rgb(140, 39, 127)
+}
+
+img.headshot{
+    width: 200px;
+    height: auto;
+}
+
+ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.list {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: -4px;
+}
+
+img.miniature {
+    display: inline-block;
+    width: 200px;
+}
+
+p.quote{
+    color:aliceblue;
+    font-style: italic;
+}
